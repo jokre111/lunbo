@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	height: 100vh;
+	width: 100%;
+	list-style: none
+}
+.box{
+	margin: 100px auto;
+	width: 500px;
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+}
+a{
+	cursor: pointer;
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: rgba(0,0,0,.5);
+	position: absolute;
+	text-align: center;
+	line-height: 50px;
+}
+a:hover{
+	background: rgba(0,0,0,.8);
+}
+.btn1{
+    top: 310px;
+    left: 100px;
+    font-size: 30px; 
+}
+.btn2{
+	top: 310px;
+    right: 100px;
+    font-size: 30px;
+}
+.wrap{
+	position: relative;
+	width: 3000px;
+	left: -500px;
+	height: 500px;
+}
+.wrap img{
+	width: 500px;
+	height: 500px;
+	float: left;
+	display: block;
+}
+.list{
+	position: absolute;
+	top: 550px;
+	left: 430px;
+}
+.list li{
+	background: rgba(255,255,255,.5);
+	float: left;
+	margin: 10px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 1px solid #fff;
+}
+.list .white{
+	background: #fff
+}
+@keyframes move{
+	
+}
